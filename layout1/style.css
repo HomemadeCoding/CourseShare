@@ -1,0 +1,15 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top{
+    background-color: black;
+    height: 40px;
+}
+#banner{
+    background:red;
+    height: 280px;
+    width: 1000px;
+}
