@@ -13,3 +13,21 @@ body{
     height: 280px;
     width: 1000px;
 }
+#main #left{
+    width: 800px;
+    background: #ccc;
+    float: left;
+    min-height: 400px;
+
+}
+#main #right {
+    width: 200px;
+    background :blue;
+    float: left;
+    min-height: 400px;
+}
+#footer{
+    background: #000;
+    width: 1000px;
+    text-align: center;
+}
