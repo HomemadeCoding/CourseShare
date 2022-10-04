@@ -31,4 +31,15 @@ body{
     width: 1000px;
     text-align: center;
     height: 60px;
+    color: #fff;
+    clear:left;
+    line-height: 60px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li {
+    list-style: none;
+    float: left;
 }
