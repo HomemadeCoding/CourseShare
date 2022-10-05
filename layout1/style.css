@@ -1,4 +1,4 @@
-body{
+    body{
     font-family: Tahoma;
     font-size: 13px;
     width: 1000px;
@@ -9,13 +9,14 @@ body{
     height: 40px;
 }
 #banner{
-    background:red;
-    height: 280px;
+    height: auto;
+    width: 1000px;
+}
+#banner img{
     width: 1000px;
 }
 #main #left{
     width: 800px;
-    background: #ccc;
     float: left;
     min-height: 400px;
 
@@ -42,4 +43,30 @@ body{
 #menu_top ul li {
     list-style: none;
     float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0px 70px 0px 72.3px;
+    border-right: 1px solid #fff;
+}
+#menu_top ul li a.active{
+background: #1949b5;
+}
+#main #left ul{
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none    ;
+}
+#main #left ul li img{
+    float: left;
+    margin-right: 10px;
+}
+#main #left ul li h2{
+    font-size: 14px;
 }
