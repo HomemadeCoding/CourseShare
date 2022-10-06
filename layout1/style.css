@@ -16,13 +16,13 @@
     width: 1000px;
 }
 #main #left{
-    width: 800px;
+    width: 700px;
     float: left;
     min-height: 400px;
 
 }
 #main #right {
-    width: 200px;
+    width: 300px;
     background :blue;
     float: left;
     min-height: 400px;
@@ -61,12 +61,40 @@ background: #1949b5;
     padding: 0px;
 }
 #main #left ul li {
-    list-style: none    ;
+    list-style: none ;
+    clear: left;
+    border-bottom: 1px solid white;
+    float: left ;
+    margin-bottom: 20px;
 }
 #main #left ul li img{
     float: left;
     margin-right: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    
 }
 #main #left ul li h2{
-    font-size: 14px;
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+#main{
+    margin-top: 20px;
+}
+#main #right.menu_right ul{
+    margin: 0px;
+    padding: 0px;
+}
+#main #right .menu_right ul li{
+    list-style: none;
+}
+#main #right .menu_right h3 {
+background-color: #194d58;
+height: 40px;
+margin-top: 0px;
+text-align: center;
+font-size: 14px;
+line-height: 40px;
+color: #fff;
 }
